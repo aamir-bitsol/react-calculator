@@ -7,7 +7,7 @@ export default function MyApp() {
 
 function Calculator() {
      const [value, setValue] = useState("");
-     console.log(value);
+     
      function handleInput(newNumber) {
           setValue((prevNumber) => {
                if (
